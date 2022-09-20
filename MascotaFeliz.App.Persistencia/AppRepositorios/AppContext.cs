@@ -5,7 +5,6 @@ namespace MascotaFeliz.App.Persistencia
 {
     public class AppContext : DbContext
     {
-        public DbSet <Persona> Persona {get; set;}
         public DbSet <Propietario> Propietario {get; set;}
         public DbSet <Veterinario> Veterinario {get; set;}
         public DbSet <Mascota> Mascota {get; set;}
