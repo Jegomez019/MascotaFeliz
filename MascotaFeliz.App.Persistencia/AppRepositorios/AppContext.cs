@@ -5,11 +5,11 @@ namespace MascotaFeliz.App.Persistencia
 {
     public class AppContext : DbContext
     {
-        public DbSet <Propietario> Propietario {get; set;}
-        public DbSet <Veterinario> Veterinario {get; set;}
-        public DbSet <Mascota> Mascota {get; set;}
-        public DbSet <HistoriaClinica> HistoriaClinica {get; set;}
-        public DbSet <Visita> Visita {get; set;}
+        public DbSet <Propietario> Propietarios {get; set;}
+        public DbSet <Veterinario> Veterinarios {get; set;}
+        public DbSet <Mascota> Mascotas {get; set;}
+        public DbSet <HistoriaClinica> HistoriaClinicas {get; set;}
+        public DbSet <Visita> Visitas {get; set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
